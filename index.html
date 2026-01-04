@@ -1956,7 +1956,7 @@
     <section class="hero" id="home">
         <div class="container hero-content">
             <div class="hero-moon">🌙</div>
-            <h2>Confort y Elegancia en Pijamas Femeninas</h2>
+            <h2>Confort y Elegancia en Pijamas Femeninos</h2>
             <p>Descubre nuestra colección exclusiva de pijamas para dama y accesorios de belleza. Calidad premium y diseños únicos para realzar tu belleza natural.</p>
             <div class="cta-buttons">
                 <a href="#pijamas" class="btn btn-primary">
@@ -1989,7 +1989,7 @@
     <section class="appointment-section" id="citas">
         <div class="container">
             <h2 class="section-title"><i class="fas fa-calendar-alt"></i> 💅 Agenda tu Cita para Pestañas</h2>
-            <p class="section-subtitle">Sistema para separar citas</p>
+            <p class="section-subtitle">Sistema para agendamientos de citas</p>
             
             <div class="appointment-container">
                 <div class="service-info">
@@ -1998,10 +1998,10 @@
                             <i class="fas fa-eye"></i>
                         </div>
                         <h3>Servicio de Pestañas</h3>
-                        <p>Aplicación profesional con productos preferidos</p>
+                        <p>Aplicación  con productos preferidos</p>
                         <ul class="service-features">
                             <li><i class="fas fa-check"></i> Duración: 1.5 - 2 horas</li>
-                            <li><i class="fas fa-check"></i> Técnica híbrida disponible</li>
+                            <li><i class="fas fa-check"></i> <strong>1 hora mínima entre citas</strong></li>
                         </ul>
                         <div class="service-price">
                             Desde <span class="price">$12.000</span>
@@ -2009,7 +2009,7 @@
                     </div>
                     
                     <div class="service-types">
-                        <h4>Tipos de servicio:</h4>
+                        <h4>Seleccione el tipo de servicio que requiere:</h4>
                         <div class="type-grid">
                             <div class="service-type" data-service="clasico">
                                 <h5>Clásico</h5>
@@ -2023,7 +2023,7 @@
                 <div class="appointment-form-container">
                     <div class="form-header">
                         <h3><i class="far fa-calendar-check"></i> Agenda tu cita</h3>
-                        <p>Sistema para agendamiento de citas</p>
+                        <p>Sistema para agendar citas</p>
                     </div>
                     
                     <!-- Alerta de validación -->
@@ -2074,6 +2074,9 @@
                                 <input type="tel" id="clientPhone" placeholder="WhatsApp (10 dígitos)" required>
                             </div>
                             <div class="form-group">
+                                <input type="email" id="clientEmail" placeholder="Correo electrónico" required>
+                            </div>
+                            <div class="form-group">
                                 <textarea id="clientNotes" placeholder="Notas adicionales (alergias, preferencias, etc.)" rows="3"></textarea>
                             </div>
                         </div>
@@ -2110,7 +2113,7 @@
                                 <i class="fab fa-whatsapp"></i> Abrir WhatsApp para Enviar
                             </a>
                             <p class="small-text" style="margin-top: 15px; font-size: 14px; color: #666;">
-                                <i class="fas fa-info-circle"></i> Recibirás la confirmación muy pronto...
+                                <i class="fas fa-info-circle"></i> Recibirás la confirmación de tu cita muy pronto....
                             </p>
                         </div>
                     </div>
@@ -2121,19 +2124,19 @@
                 <div class="info-card">
                     <i class="fas fa-map-marker-alt"></i>
                     <h4>Ubicación</h4>
-                    <p></p>
+                    <p>Cali, Colombia</p>
                     <a href="#" class="view-map">Ver en mapa</a>
                 </div>
                 <div class="info-card">
                     <i class="fas fa-clock"></i>
                     <h4>Horarios</h4>
-                    <p>Lun-Vie: 10am - 3pm</p>
-                    <p>Sáb y Festivos: 10am - 5pm</p>
+                    <p>Lun-Vie: 10am - 7pm</p>
+                    <p>Sáb: 10am - 3pm</p>
                 </div>
                 <div class="info-card">
                     <i class="fas fa-star"></i>
                     <h4>Especialista</h4>
-                    <p>Andrea Solarte - 1 año de experiencia</p>
+                    <p>Juanita -  1 año de experiencia</p>
                     <span class="certified">Certificada</span>
                 </div>
                 <div class="info-card">
@@ -2181,7 +2184,6 @@
                         <p>El idioma universal que se habla sin palabras, el mapa que guía sin coordenadas, el misterio que dos almas resuelven juntas. No es solo un día en el calendario, es el latido compartido que convierte momentos en eternidad.</p>
                         <div class="occasion-features">
                             <span><i class="fas fa-heart"></i> Empaque romántico</span>
-                            <span><i class="fas fa-tag"></i> Combo especial</span>
                         </div>
                         <a href="https://wa.me/573122327034?text=Hola,%20busco%20un%20regalo%20para%20San%20Valentín" 
                            class="btn btn-primary" target="_blank">
@@ -2285,7 +2287,7 @@
                     <ul class="footer-links">
                         <li><i class="fas fa-phone"></i> +57 312 232 7034</li>
                         <li><i class="fas fa-envelope"></i> hola@pijamaselegantes.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Cali</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Cali,COL</li>
                         <li><i class="fas fa-clock"></i> Lunes a Sábado: 9am - 8pm</li>
                     </ul>
                 </div>
@@ -3415,7 +3417,7 @@
                 const clientEmail = document.getElementById('clientEmail').value.trim();
                 const notes = document.getElementById('clientNotes').value.trim();
                 
-                const message = `📅 *NUEVA CITA AGENDADA - SISTEMA ANTI-CONFLICTOS* 📅
+                const message = `📅 *NUEVA CITA AGENDADA * 📅
 
 👤 *Cliente:* ${clientName}
 📱 *WhatsApp:* ${clientPhone}
